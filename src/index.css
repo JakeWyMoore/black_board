@@ -1,0 +1,31 @@
+* {
+    background-color: rgb(207, 207, 207);
+    font-family: sans-serif;
+
+}
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    padding: 15px 25px 30px 25px;
+    margin: 15px;
+    width: 20%;
+    font-family: sans-serif;
+}
+.card h2 {
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.card button {
+    margin: 0 auto;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}

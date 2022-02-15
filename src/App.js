@@ -3,10 +3,15 @@ import './App.css';
 function App() {
   return (
 
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <h1>My ToDo List</h1>
+      <div className='card'>
+        <h2>Title</h2>
+        <button>Delete</button>
+
+      </div>
     </div>
-    
+
   );
 }
 
