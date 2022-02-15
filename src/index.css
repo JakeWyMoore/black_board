@@ -4,6 +4,8 @@
 
 }
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     box-shadow: 0px 0px 10px grey;
     border-radius: 10px;
@@ -13,12 +15,12 @@
     font-family: sans-serif;
 }
 .card h2 {
+    text-align: center;
     background-color: white;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 .card button {
-    margin: 0 auto;
     background-color: turquoise;
     color: white;
     border: none;
@@ -27,5 +29,10 @@
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-
+    transition: 0.2s;
+}
+.card button:hover {
+    background: #222222;
+    transition: 0.2s;
+    cursor: pointer;
 }
