@@ -9,7 +9,7 @@ import NewApp from './NewApp';
 ReactDOM.render(
   
   <App />,
-  <NewApp />,
+  // <NewApp />,
 
   document.getElementById('root')
 );
