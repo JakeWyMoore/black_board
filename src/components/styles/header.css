@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    width: 100%;
+}
+.left {
+    flex: 50%;
+}
+.right {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
