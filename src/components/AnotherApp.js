@@ -1,6 +1,6 @@
 import React from 'react';
     
-const SomeFunctionalComponent = (props) => {
+const NewApp = (props) => {
     return (
         <div>
             This is our first class component.
@@ -8,4 +8,4 @@ const SomeFunctionalComponent = (props) => {
     );
 };
     
-export default SomeFunctionalComponent;
+export default NewApp;

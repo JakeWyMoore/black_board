@@ -1,5 +1,7 @@
 import './App.css';
 
+import AnotherApp from './components/AnotherApp';
+
 function App() {
   return (
 
@@ -15,6 +17,8 @@ function App() {
         <h2>Go to the grocery store</h2>
         <button>All Done</button>
       </div>
+
+      <AnotherApp />
 
     </div>
   );
