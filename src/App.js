@@ -1,16 +1,19 @@
 import './App.css';
 
 import AnotherApp from './components/AnotherApp';
-import Header from "./components/Header";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     
-    <div>
-      
+    <div className='container'>
+
       <Header />
 
       <AnotherApp />
+
+      <Footer />
 
     </div>
   );
