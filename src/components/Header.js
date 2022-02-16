@@ -11,8 +11,8 @@ const Header = (props) => {
             </div>
 
             <div className='right'>
-                <p>Logout</p>
                 <i class="fa fa-solid fa-gear"></i>
+                <button>Logout</button>
             </div>
 
         </div>
