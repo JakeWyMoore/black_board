@@ -30,16 +30,6 @@ function App() {
         <Boxes title={'Title'} />
         <Boxes title={'Title'} />
         <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
       </div>
 
       <Footer />

@@ -11,6 +11,11 @@ const Header = (props) => {
         <div className='header'>
             <div className='left'>
                 <h1>BLACK L<i class="fas fa-ellipsis-v"></i>ST</h1>
+                <div className='left-dates'>
+                    <i class="fas fa-arrow-circle-left"></i>
+                    <p>Feb 22, 2022</p>
+                    <i class="fas fa-arrow-circle-right"></i>
+                </div>
             </div>
             <div className='right'>
                 <i class="fas fa-cog"></i>

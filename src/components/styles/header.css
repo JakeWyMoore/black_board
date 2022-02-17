@@ -3,11 +3,26 @@
     width: 100%;
 }
 .left {
+    display: flex;
+    align-items: center;
     margin-left: 20px;
     flex: 50%;
 }
 .left h1 {
     letter-spacing: 3px;
+}
+.left-dates {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+    font-size: 20px;
+}
+.left-dates p {
+    font-weight: bold;
+}
+.left-dates i {
+    padding: 0px 10px;
 }
 .right {
     margin-right: 20px;
