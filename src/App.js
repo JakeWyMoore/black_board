@@ -11,10 +11,36 @@ function App() {
 
       <Header />
 
-      <Boxes title={'Do The Dishes'} />
-      <Boxes title={'Eat Food'} />
-      <Boxes title={'Wash the dog'} />
-      <Boxes title={'Drink Wine'} />
+      <div className='box-container'>
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+        <Boxes title={'Title'} />
+      </div>
 
       <Footer />
 
