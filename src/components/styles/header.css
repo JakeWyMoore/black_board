@@ -6,6 +6,12 @@
     margin-left: 20px;
     flex: 50%;
 }
+.left h1 {
+    letter-spacing: 3px;
+}
+.left .black {
+
+}
 .right {
     margin-right: 20px;
     flex: 50%;

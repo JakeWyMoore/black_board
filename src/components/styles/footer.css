@@ -1,11 +1,26 @@
-.footer {
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    bottom: 0;
-    margin-bottom: 0;
 }
-.footer p {
-    padding: 10px;
+.footer-content i {
+    padding: 20px 22px;
+    color: white;
+    background: turquoise;
+    box-shadow: 2px 2px 6px #818181;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 22px;
+    transition: 0.2s;
+
+}
+.footer-content i:hover {
+    cursor: pointer;
+    background: #222222;
+    transition: 0.2s;
 }

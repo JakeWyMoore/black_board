@@ -1,6 +1,6 @@
 import './App.css';
 
-import AnotherApp from './components/AnotherApp';
+import Boxes from './components/Boxes';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -11,7 +11,8 @@ function App() {
 
       <Header />
 
-      <AnotherApp />
+      <Boxes />
+
 
       <Footer />
 

@@ -4,10 +4,10 @@ import './styles/footer.css'
     
 const Footer = (props) => {
     return (
-        <div className='footer'>
-            <p>Notes</p>
-            <p>Previous</p>
-            <p>Logout</p>
+        <div className='footer-container'>
+            <div className='footer-content'>
+                <i class="fa fa-solid fa-plus"></i>
+            </div>
         </div>
     );
 };
