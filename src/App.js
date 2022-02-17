@@ -13,7 +13,6 @@ function App() {
 
       <Boxes />
 
-
       <Footer />
 
     </div>

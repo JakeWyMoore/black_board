@@ -3,6 +3,19 @@
     font-family: sans-serif;
 
 }
+.fa{
+    font-family: FontAwesome !important;
+    font-style: normal;   
+}
+.fab{
+    font-family: FontAwesome !important;
+    font-style: normal;   
+}
+.fas{
+    font-family: FontAwesome !important;
+    font-style: normal;   
+}
+
 .container {
     min-height: 100vh;
 }
