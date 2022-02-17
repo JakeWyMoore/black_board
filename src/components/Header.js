@@ -1,8 +1,11 @@
 import React from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'font-awesome/css/font-awesome.min.css';
+import moment from "moment";
 
 import './styles/header.css';
+
+var date = moment().format("DD-MM-YYYY hh:mm:ss");
     
 const Header = (props) => {
 
@@ -13,7 +16,7 @@ const Header = (props) => {
                 <h1>BLACK L<i class="fas fa-ellipsis-v"></i>ST</h1>
                 <div className='left-dates'>
                     <i class="fas fa-arrow-circle-left"></i>
-                    <p>Feb 22, 2022</p>
+                    <p>{date}</p>
                     <i class="fas fa-arrow-circle-right"></i>
                 </div>
             </div>
