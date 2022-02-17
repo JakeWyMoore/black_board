@@ -17,7 +17,7 @@ const Header = (props) => {
             </div>
             <div className='right'>
                 <i class="fas fa-cog"></i>
-                <button onClick={ ()=> alert("This button has been clicked!") }>Logout</button>
+                <button onClick={ () => alert("Are you sure?") }>Logout</button>
             </div>
         </div>
     );

@@ -11,7 +11,10 @@ function App() {
 
       <Header />
 
-      <Boxes />
+      <Boxes title={'Do The Dishes'} />
+      <Boxes title={'Eat Food'} />
+      <Boxes title={'Wash the dog'} />
+      <Boxes title={'Drink Wine'} />
 
       <Footer />
 
