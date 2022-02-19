@@ -13,23 +13,6 @@ function App() {
 
       <div className='box-container'>
         <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
-        <Boxes title={'Title'} />
       </div>
 
       <Footer />

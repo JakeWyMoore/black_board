@@ -1,11 +1,11 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import 'font-awesome/css/font-awesome.min.css';
 import moment from "moment";
+
+import 'font-awesome/css/font-awesome.min.css';
 
 import './styles/header.css';
 
-var date = moment().format("DD-MM-YYYY hh:mm:ss");
+var date = moment().format("MM / DD / YYYY");
     
 const Header = (props) => {
 
