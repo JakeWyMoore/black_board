@@ -3,7 +3,7 @@ import './App.css';
 import Boxes from './components/Boxes';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import UserForm from './components/UserForm';
+import TaskForm from './components/TaskForm';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Boxes title={'Title'} />
       </div>
 
-      <UserForm />
+      <TaskForm />
 
       <Footer />
 
