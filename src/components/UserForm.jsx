@@ -15,25 +15,28 @@ const UserForm = (props) => {
             email: email, 
             password: password 
         };
+        const userEmail = newUser.email
         console.log("Welcome", newUser);
+        console.log("Email: ", newUser.email);
     };
     
     return(
-        <form onSubmit={ createUser }>
-            <div>
-                <label>Username: </label> 
-                <input type="text" onChange={ (e) => setUsername(e.target.value) } />
-            </div>
-            <div>
-                <label>Email Address: </label> 
-                <input type="text" onChange={ (e) => setEmail(e.target.value) } />
-            </div>
-            <div>
-                <label>Password: </label>
-                <input type="text" onChange={ (e) => setPassword(e.target.value) } />
-            </div>
-            <input type="submit" value="Create User" />
-        </form>
+        <div>
+            <form onSubmit={ createUser }>
+                <div>
+                    <input type="text" placeholder='Username' onChange={ (e) => setUsername(e.target.value) } />
+                </div>
+                <div>
+                    <input type="text" placeholder='Email' onChange={ (e) => setEmail(e.target.value) } />
+                </div>
+                <div>
+                    <input type="text" placeholder='Passowrd' onChange={ (e) => setPassword(e.target.value) } />
+                </div>
+                <input type="submit" value="Create User" />
+            </form>
+
+        </div>
+
     );
 };
     
