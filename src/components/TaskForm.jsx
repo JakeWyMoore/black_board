@@ -10,7 +10,7 @@ const TaskForm = (props) => {
         e.preventDefault();
     
         // create a javascript object to hold all of the values
-        const newTask = {task};
+        const newTask = { task };
         setTask('');
         console.log("New Task: ", newTask);
     };
@@ -24,6 +24,7 @@ const TaskForm = (props) => {
                 </div>
                 <input type="submit" value="Create Task" />
             </form>
+            <h1>{ task }</h1>
 
         </div>
 
