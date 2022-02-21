@@ -10,14 +10,14 @@ const TaskForm = (props) => {
         e.preventDefault();
     
         // create a javascript object to hold all of the values
-        const newTask = { 
-            task: task, 
-        };
-        console.log("Welcome", newTask);
+        const newTask = {task};
+        setTask('');
+        console.log("New Task: ", newTask);
     };
     
     return(
         <div>
+
             <form onSubmit={ createTask }>
                 <div>
                     <input type="text" placeholder='Task' onChange={ (e) => setTask(e.target.value) } />
