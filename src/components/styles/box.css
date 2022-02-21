@@ -21,7 +21,8 @@
     letter-spacing: 3px;
 }
 .card button {
-    background-color: turquoise;
+    background: rgb(71,153,233);
+    background: linear-gradient(278deg, rgba(71,153,233,1) 0%, rgba(101,244,205,1) 100%);
     color: white;
     border: none;
     border-radius: 5px;
