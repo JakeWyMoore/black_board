@@ -2,3 +2,6 @@ Black Board is a React app that allows users to create and manage events.
 
 FEB 19 2022
     - Next I need to figure out routing. So I can get onto different pages.
+
+FEB 22 2022
+    - Need to clean up the form and understand the concepts of the form better.
