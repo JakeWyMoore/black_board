@@ -4,7 +4,8 @@ import './styles/task-form.css';
     
 const TaskForm = (props) => {
     const [task, setTask] = useState(""); 
-    
+    const [hasBeenSubmitted, setHasBeenSubmitted] = useState(false);
+
     const createTask = (e) => {
         // we must prevent the default refresh of the browser to keep our state from being reset
         e.preventDefault();
@@ -12,7 +13,18 @@ const TaskForm = (props) => {
         // create a javascript object to hold all of the values
         const newTask = { task };
         setTask('');
-        console.log("New Task: ", newTask);
+        console.log("New Task: ", newTask.task);
+
+        setHasBeenSubmitted( true );
+    };
+
+    const formMessage = () => {
+        if( hasBeenSubmitted ) {
+            var TheTask = task
+	        return "Form Submitted";
+        } else {
+            return "Welcome, please submit the form";
+        }
     };
     
     return(
@@ -20,11 +32,14 @@ const TaskForm = (props) => {
 
             <form onSubmit={ createTask }>
                 <div>
-                    <input type="text" placeholder='Task' onChange={ (e) => setTask(e.target.value) } />
+                    <input type="text" placeholder='New Task' onChange={ (e) => setTask(e.target.value) } />
                 </div>
                 <input type="submit" value="Create Task" />
             </form>
-            <h1>{ task }</h1>
+            <div className='info'>
+                <h1>{ task }</h1>
+                <h1>{ formMessage() }</h1>
+            </div>
 
         </div>
 
