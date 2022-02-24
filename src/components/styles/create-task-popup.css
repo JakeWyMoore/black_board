@@ -1,0 +1,46 @@
+.create-task-container {
+    margin: 0 auto;
+    align-items: center;
+    box-shadow: 0px 0px 100px grey;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.create-task-popup {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-task-popup form {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.create-task-popup form button {
+    padding: 8px 18px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(71,153,233);
+    background: linear-gradient(278deg, rgba(71,153,233,1) 0%, rgba(101,244,205,1) 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+.create-task-popup form button:hover {
+    background: #222222;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.create-task-popup h1 {
+    background: none;
+}

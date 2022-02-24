@@ -4,6 +4,7 @@ import Boxes from './components/Boxes';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import TaskForm from './components/TaskForm';
+import CreateTaskPopup from './components/CreateTaskPopup';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <div className='box-container'>
         <Boxes title={'Title'} />
       </div>
+
+      <CreateTaskPopup />
 
       <TaskForm />
 
