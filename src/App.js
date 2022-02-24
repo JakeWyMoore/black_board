@@ -17,8 +17,6 @@ function App() {
         <Boxes title={'Title'} />
       </div>
 
-      <CreateTaskPopup />
-
       <TaskForm />
 
       <Footer />

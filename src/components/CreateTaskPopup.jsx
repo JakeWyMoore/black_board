@@ -4,14 +4,13 @@ import './styles/create-task-popup.css';
     
 const CreateTaskPopup = (props) => {
     return (
-        <div className='create-task-container'>
-            <div className='create-task-popup'>
-                <h1>Create New Task</h1>
-                <form action="">
-                    <input type="text" placeholder='Taks' />
-                    <button type='submit'>Create</button>
-                </form>
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
             </div>
+
         </div>
     );
 };
