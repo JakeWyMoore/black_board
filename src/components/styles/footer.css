@@ -11,7 +11,8 @@
 .footer-content i {
     padding: 20px 22px;
     color: white;
-    background: turquoise;
+    background: rgb(71,153,233);
+    background: linear-gradient(278deg, rgba(71,153,233,1) 0%, rgba(101,244,205,1) 100%);
     box-shadow: 2px 2px 6px #818181;
     margin: 20px;
     border-radius: 50px;

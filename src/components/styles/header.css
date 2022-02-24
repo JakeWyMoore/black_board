@@ -51,8 +51,8 @@
     margin-left: 15px;
     border: none;
     border-radius: 5px;
-    background: turquoise;
-
+    background: rgb(71,153,233);
+    background: linear-gradient(278deg, rgba(71,153,233,1) 0%, rgba(101,244,205,1) 100%);
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;

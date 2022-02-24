@@ -20,8 +20,7 @@ const TaskForm = (props) => {
 
     const formMessage = () => {
         if( hasBeenSubmitted ) {
-            var TheTask = task
-	        return "Form Submitted";
+	        return "New Task Added";
         } else {
             return "Welcome, please submit the form";
         }
