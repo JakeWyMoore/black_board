@@ -3,6 +3,9 @@
     font-family: sans-serif;
 
 }
+p {
+    font-family: sans-serif;
+}
 .fa{
     font-family: FontAwesome !important;
     font-style: normal;   

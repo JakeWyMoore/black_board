@@ -20,6 +20,31 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+.buttons {
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a {
+    display: flex;
+    flex: 15%;
+    justify-content: flex-end;
+    font-size: 26px;
+    color: rgb(71,153,233);
+
+    background: none;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.buttons a:hover {
+    color: #222222;
+    transition: 0.2s;
+
+}
+.buttons button {
+    flex: 85%;
+}
 .card button {
     background: rgb(71,153,233);
     background: linear-gradient(278deg, rgba(71,153,233,1) 0%, rgba(101,244,205,1) 100%);

@@ -46,16 +46,23 @@
 }
 .popup-inner form a {
     background: none;
-    color: rgb(71,153,233);
+    color: white;
     text-align: center;
     padding: 20px;
     transition: 0.2s;
+    font-size: 26px;
 
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.fas {
+    background: none;
 }
 .popup-inner form a:hover {
     transition: 0.2s;
     cursor: pointer;
-    letter-spacing: 5px;
+    color: rgb(71,153,233);
 }
 .btn[disabled=disabled], .btn:disabled {
     background: rgb(187, 187, 187);

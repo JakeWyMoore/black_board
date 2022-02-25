@@ -34,7 +34,7 @@ function CreateTaskPopup(props) {
                     }
                 </div>
 
-                <form onSubmit={ (e) => e.preventDefault() }>
+                <form action='' onSubmit={ (e) => e.preventDefault() }>
                     <input className='text' type="text" placeholder='Create New Task' onChange={handleTask} />
                     {
                         taskError ?
@@ -43,7 +43,7 @@ function CreateTaskPopup(props) {
 
                     }
 
-                    <a onClick={() => props.setTrigger(false)}>Cancel</a>
+                    <a onClick={() => props.setTrigger(false)}><i class="fas fa-times-circle"></i></a>
 
                 </form>
 

@@ -22,8 +22,6 @@ function App() {
         <Boxes title={'Title'} />
       </div>
 
-      <TestForm />
-
       <Footer setTrigger={setButtonPopup}/>
 
       <CreateTaskPopup trigger={buttonPopup} setTrigger={setButtonPopup} />
