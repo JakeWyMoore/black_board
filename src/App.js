@@ -1,3 +1,5 @@
+import React, { useEffect, useState } from "react";
+
 import './App.css';
 
 import Boxes from './components/Boxes';
@@ -7,6 +9,9 @@ import TaskForm from './components/TaskForm';
 import CreateTaskPopup from './components/CreateTaskPopup';
 
 function App() {
+
+  const [buttonPopup, setButtonPopup] = useState(false);
+
   return (
     
     <div className='container'>
@@ -17,9 +22,11 @@ function App() {
         <Boxes title={'Title'} />
       </div>
 
-      <TaskForm />
+      {/* <TaskForm /> */}
 
-      <Footer />
+      <Footer setTrigger={setButtonPopup}/>
+
+      <CreateTaskPopup trigger={buttonPopup} setTrigger={setButtonPopup} />
 
     </div>
   );

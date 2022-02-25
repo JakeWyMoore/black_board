@@ -1,18 +1,27 @@
 import React from 'react';
 
-import './styles/create-task-popup.css';
+import './styles/create-task-popup.css'
+
     
-const CreateTaskPopup = (props) => {
-    return (
-        <div id="myModal" class="modal">
+function CreateTaskPopup(props) {
+    
+    return (props.trigger) ? (
+        
+        <div class="popup">
+            <div class="popup-inner">
 
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
+                <form action="">
+                    <input type="text" placeholder='Create New Task' />
+                    <button type='submit'>Create</button>
+
+                    <a onClick={() => props.setTrigger(false)}>Cancel</a>
+
+                </form>
+
             </div>
-
         </div>
-    );
+
+    ) : "";
 };
     
 export default CreateTaskPopup;
