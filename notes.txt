@@ -5,3 +5,6 @@ FEB 19 2022
 
 FEB 22 2022
     - Need to clean up the form and understand the concepts of the form better.
+
+MAR 01 2022
+    - Need to figure out how to communicate through multiple componenets. Hmm.
