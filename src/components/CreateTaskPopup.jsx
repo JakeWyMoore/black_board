@@ -8,6 +8,14 @@ function CreateTaskPopup(props) {
     const [task, setTask] = useState("");
     const [taskError, setTaskError] = useState("");
     
+    const btnStyle = {
+        padding: '12px 15px',
+        fontFamily: 'Arial, sans-serif',
+        fontWeight: 'bold',
+        background: 'linear-gradient(30deg, rebeccapurple, magenta)', 
+        color: '#fff',
+        border: 'none'
+    };
 
     const handleTask = (e) => {
         setTask(e.target.value);
@@ -36,14 +44,15 @@ function CreateTaskPopup(props) {
                         ''
                     }
                 </div>
-
+                <div>
+                    <a className='btnStyle'>Test</a>
+                </div>
                 <form action='' onSubmit={ (e) => e.preventDefault() }>
                     <input className='text' type="text" placeholder='Create New Task' onChange={handleTask} />
                     {
                         taskError ?
                         <input className='btn' type="submit" value="Create Task" disabled /> : 
                         <input className='btn' type="submit" value="Create Task" />
-
                     }
 
                     <a onClick={() => props.setTrigger(false)}><i class="fas fa-times-circle"></i></a>
