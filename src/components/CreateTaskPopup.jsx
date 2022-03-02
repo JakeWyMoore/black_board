@@ -13,7 +13,7 @@ function CreateTaskPopup(props) {
         fontFamily: 'Arial, sans-serif',
         fontWeight: 'bold',
         background: 'linear-gradient(30deg, rebeccapurple, magenta)', 
-        color: '#fff',
+        color: 'red',
         border: 'none'
     };
 
@@ -45,7 +45,7 @@ function CreateTaskPopup(props) {
                     }
                 </div>
                 <div>
-                    <a className='btnStyle'>Test</a>
+                    <a style={btnStyle}>Test</a>
                 </div>
                 <form action='' onSubmit={ (e) => e.preventDefault() }>
                     <input className='text' type="text" placeholder='Create New Task' onChange={handleTask} />

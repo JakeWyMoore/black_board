@@ -3,6 +3,9 @@ import React from 'react';
 import './styles/box.css';
 
 const Boxes = (props) => {
+
+    const groceryList = ["pearl onions", "thyme", "cremini mushrooms", "butter"];
+
     return (
         <div className='box-container'>
             <div className='card'>
@@ -14,6 +17,15 @@ const Boxes = (props) => {
                 </div>
                 
             </div>
+
+            <ul>
+                {
+                    groceryList.map( (item, index) => 
+                        <li key={ index }>{ item }</li>
+                    )
+                }
+            </ul>
+
         </div>
     );
 };
