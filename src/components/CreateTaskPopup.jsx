@@ -12,10 +12,13 @@ function CreateTaskPopup(props) {
     const handleTask = (e) => {
         setTask(e.target.value);
         if(e.target.value.length == 0) {
-            setTaskError("Task is required!");
+            setTaskError("Task is required");
         } else if(e.target.value.length < 3) {
-            setTaskError("Title must be 3 characters or longer!");
-        } else {
+            setTaskError("Title must be 3 characters or longer");
+        } else if(e.target.value.length > 20) {
+            setTaskError("Title must be less than 20 characters")
+        }
+        else {
             // an empty string is considered a "falsy" value
             setTaskError("");
         }
