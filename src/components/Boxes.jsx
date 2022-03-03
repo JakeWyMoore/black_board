@@ -4,7 +4,8 @@ import './styles/box.css';
 
 const Boxes = (props) => {
 
-    const groceryList = ["pearl onions", "thyme", "cremini mushrooms", "butter"];
+    // THIS IS HOW YOU ITTERATE THROUGH A LIST
+    // const groceryList = ["pearl onions", "thyme", "cremini mushrooms", "butter"];
 
     return (
         <div className='box-container'>
@@ -18,13 +19,14 @@ const Boxes = (props) => {
                 
             </div>
 
-            <ul>
+            {/* THE LIST */}
+            {/* <ul>
                 {
                     groceryList.map( (item, index) => 
                         <li key={ index }>{ item }</li>
                     )
                 }
-            </ul>
+            </ul> */}
 
         </div>
     );
