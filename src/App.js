@@ -11,6 +11,11 @@ import TestForm from './components/TestForm';
 function App() {
 
   const [buttonPopup, setButtonPopup] = useState(false);
+  const [task, setTask] = useState("task")
+
+  const newTask = (submittedTask) => {
+    setTask(submittedTask);
+  }
 
   return (
     
@@ -19,12 +24,12 @@ function App() {
       <Header />
 
       <div className='box-container'>
-        <Boxes title={'Title'} />
+        <Boxes task={ newTask } />
       </div>
 
       <Footer setTrigger={setButtonPopup}/>
 
-      <CreateTaskPopup trigger={buttonPopup} setTrigger={setButtonPopup} />
+      <CreateTaskPopup trigger={buttonPopup} setTrigger={setButtonPopup} message={ newTask }/>
 
     </div>
   );
