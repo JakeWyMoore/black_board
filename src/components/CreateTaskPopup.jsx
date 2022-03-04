@@ -61,7 +61,7 @@ function CreateTaskPopup(props) {
                     {
                         taskError ?
                         <input className='btn' type="submit" value="Create Task" disabled /> : 
-                        <input className='btn' type="submit" value="Create Task" />
+                        <input className='btn' type="submit" value="Create Task" onClick={() => props.setTrigger(false)} />
                     }
 
                     <a onClick={() => props.setTrigger(false)}><i class="fas fa-times-circle"></i></a>
