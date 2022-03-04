@@ -10,7 +10,7 @@ const Boxes = (props) => {
     return (
         <div className='box-container'>
             <div className='card'>
-                <h2>{ props.task }</h2>
+            <pre>{ props.message }</pre>
 
                 <div className='buttons'>
                     <button>Complete</button>

@@ -20,6 +20,10 @@ function CreateTaskPopup(props) {
 
     const handleTask = (e) => {
         setTask(e.target.value);
+        e.preventDefault();
+        props.onNewMessage( task );
+
+        // ERROS
         if(e.target.value.length == 0) {
             setTaskError("Task is required");
         } else if(e.target.value.length < 3) {
@@ -52,7 +56,7 @@ function CreateTaskPopup(props) {
                 </div> */}
 
                 
-                <form action='' onSubmit={ (e) => e.preventDefault() }>
+                <form action='' onSubmit={ handleTask }>
                     <input className='text' type="text" placeholder='Create New Task' onChange={handleTask} value={task}/>
                     {
                         taskError ?

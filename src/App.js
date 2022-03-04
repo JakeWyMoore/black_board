@@ -11,11 +11,12 @@ import TestForm from './components/TestForm';
 function App() {
 
   const [buttonPopup, setButtonPopup] = useState(false);
-  const [task, setTask] = useState("task")
-
-  const newTask = (submittedTask) => {
-    setTask(submittedTask);
+  const [currentMsg, setCurrentMsg] = useState("There are no messages");
+    
+  const youveGotMail = ( newMessage ) => {
+      setCurrentMsg( newMessage );
   }
+
 
   return (
     
@@ -23,13 +24,11 @@ function App() {
 
       <Header />
 
-      <div className='box-container'>
-        <Boxes task={ newTask } />
-      </div>
+      <Boxes message={ currentMsg } />
+
+      <CreateTaskPopup onNewMessage={ youveGotMail } trigger={buttonPopup} setTrigger={setButtonPopup} />
 
       <Footer setTrigger={setButtonPopup}/>
-
-      <CreateTaskPopup trigger={buttonPopup} setTrigger={setButtonPopup} message={ newTask }/>
 
     </div>
   );
